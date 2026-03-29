@@ -8,7 +8,7 @@ deployment_fee_rate = 10
 # =========================
 [[accounts]]
 name = "deployer"
-address = "ST2KMJDC74R3C608QQ4FZDAHPSH24FQNHK3AGERP0"
+address = "ST70NNDG2PF1CA1T651VSEDRZ0PJNJ24GEC1ZZG5"
 balance = 100000000000000
 
 [[accounts]]
