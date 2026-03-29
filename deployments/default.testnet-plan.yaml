@@ -10,15 +10,15 @@ plan:
       transactions:
         - contract-publish:
             contract-name: pmll-traits
-            expected-sender: ST28VYYS0W5TW2CJNK2SWAA5ZVHVY5M1CGJR13GZ3
+            expected-sender: STXX7HK8X1S169TT44X1G691SBWAZP0E6GGN9ZAH
             cost: 7030
             path: Contracts/traits/pmll-traits.clar
             anchor-block-only: true
             clarity-version: 4
         - contract-publish:
             contract-name: pmll-vault
-            expected-sender: ST28VYYS0W5TW2CJNK2SWAA5ZVHVY5M1CGJR13GZ3
-            cost: 68990
+            expected-sender: STXX7HK8X1S169TT44X1G691SBWAZP0E6GGN9ZAH
+            cost: 68570
             path: Contracts/pmll-vault.clar
             anchor-block-only: true
             clarity-version: 4
