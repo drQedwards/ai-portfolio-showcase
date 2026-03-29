@@ -1,0 +1,38 @@
+[network]
+name = "devnet"
+node_rpc_address = "http://localhost:20443"
+deployment_fee_rate = 10
+
+# =========================
+# Accounts (pre-funded)
+# =========================
+[[accounts]]
+name = "deployer"
+address = "ST2KMJDC74R3C608QQ4FZDAHPSH24FQNHK3AGERP0"
+balance = 100000000000000
+
+[[accounts]]
+name = "wallet_1"
+balance = 100000000000000
+
+[[accounts]]
+name = "wallet_2"
+balance = 100000000000000
+
+# =========================
+# Contracts to deploy
+# =========================
+[[contracts]]
+name = "pmll-traits"
+deployer = "deployer"
+
+[[contracts]]
+name = "pmll-vault"
+deployer = "deployer"
+
+# =========================
+# Devnet Behavior
+# =========================
+[devnet]
+miner = "deployer"
+block_time = 10
