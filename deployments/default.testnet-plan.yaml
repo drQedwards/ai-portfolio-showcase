@@ -1,0 +1,25 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://stacks-node-api.testnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: pmll-traits
+            expected-sender: ST2ZZ5MEF0DXNN6RW1Y6RCWZ2PBRCF6MKP59JPBD7
+            cost: 7030
+            path: Contracts/traits/pmll-traits.clar
+            anchor-block-only: true
+            clarity-version: 4
+        - contract-publish:
+            contract-name: pmll-vault
+            expected-sender: ST2ZZ5MEF0DXNN6RW1Y6RCWZ2PBRCF6MKP59JPBD7
+            cost: 68990
+            path: Contracts/pmll-vault.clar
+            anchor-block-only: true
+            clarity-version: 4
+      epoch: "3.3"
