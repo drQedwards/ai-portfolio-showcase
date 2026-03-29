@@ -1,4 +1,4 @@
-(use-trait ft-trait 'ST70NNDG2PF1CA1T651VSEDRZ0PJNJ24GEC1ZZG5.pmll-traits.sip010-ft-trait)
+(use-trait ft-trait .pmll-traits.sip010-ft-trait)
 
 ;; Errors
 (define-constant ERR_UNAUTHORIZED (err u100))
