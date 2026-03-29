@@ -1,14 +1,12 @@
 [network]
 name = "devnet"
-node_rpc_address = "http://localhost:20443"
 deployment_fee_rate = 10
 
 # =========================
-# Accounts (pre-funded)
+# Accounts (auto-generated)
 # =========================
 [[accounts]]
 name = "deployer"
-address = "ST70NNDG2PF1CA1T651VSEDRZ0PJNJ24GEC1ZZG5"
 balance = 100000000000000
 
 [[accounts]]
@@ -20,7 +18,7 @@ name = "wallet_2"
 balance = 100000000000000
 
 # =========================
-# Contracts to deploy
+# Contracts (auto deploy)
 # =========================
 [[contracts]]
 name = "pmll-traits"
@@ -31,7 +29,7 @@ name = "pmll-vault"
 deployer = "deployer"
 
 # =========================
-# Devnet Behavior
+# Devnet behavior
 # =========================
 [devnet]
 miner = "deployer"
