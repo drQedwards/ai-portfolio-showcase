@@ -5,22 +5,22 @@ export const AboutSection = () => {
     {
       icon: Brain,
       title: "AI & Machine Learning",
-      description: "Research in persistent memory architectures and recursive transformers",
+      description: "PMLL, RTM, and self-correcting memory from TechRxiv papers into running software",
     },
     {
       icon: Code,
       title: "Software Engineering",
-      description: "Full-stack development with Python, React, and modern web technologies",
+      description: "PPM, pmll-memory-mcp, Python, React, and agent tooling on GitHub",
     },
     {
       icon: BookOpen,
       title: "Academic Research",
-      description: "Published preprints on TechRxiv/IEEE covering computational complexity",
+      description: "Published preprints on TechRxiv/IEEE covering memory architectures and complexity",
     },
     {
       icon: Lightbulb,
-      title: "Innovation",
-      description: "Developing novel frameworks for self-correcting AI memory systems",
+      title: "Community & Performance",
+      description: "Piano-tested token launches as a community developer of blockchain social networks",
     },
   ];
 
@@ -54,17 +54,23 @@ export const AboutSection = () => {
           </p>
           
           <p className="text-muted-foreground leading-relaxed mb-6">
-            I'm an AI researcher and software engineer passionate about advancing machine learning 
-            architectures. My work focuses on developing innovative memory systems for large language 
-            models, including the Persistent Memory Logic Loop (PMLL) and Recursive Transformer Model (RTM). 
-            Currently pursuing research at the intersection of computational complexity and artificial 
-            intelligence, with published preprints on TechRxiv/IEEE.
+            I'm an AI researcher and software engineer working on persistent memory for
+            large language models. The Persistent Memory Logic Loop (PMLL) and Recursive
+            Transformer Model (RTM) started as TechRxiv/IEEE preprints and now ship as
+            PPM and <span className="font-mono text-sm">pmll-memory-mcp</span>, so coding
+            agents can actually use the architecture.
+          </p>
+
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            Alongside the research I work as a community developer of blockchain social-network
+            technology. Piano performance is how that work gets tested in public: token
+            launches, metadata, and live rooms are the social layer around the same practice.
           </p>
 
           <p className="text-muted-foreground leading-relaxed">
-            This portfolio represents my CS50 Final Project at Harvard, showcasing both my web development 
-            skills and my research contributions to the AI community. I believe in open science and 
-            making complex AI concepts accessible to everyone.
+            This portfolio began as my CS50 Final Project at Harvard. I believe in open
+            science and making the memory loop, the papers, and the community stack
+            accessible in one place.
           </p>
         </div>
       </div>
