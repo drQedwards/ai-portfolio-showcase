@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Users, MessageCircle, Film, Coins, Copy } from "lucide-react";
+import { ExternalLink, Users, MessageCircle, Film, Coins, Copy, Music } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { toast } from "sonner";
 
@@ -9,7 +9,7 @@ export const Web3Section = () => {
     try {
       await navigator.clipboard.writeText(text);
       toast.success(`${label} copied to clipboard`);
-    } catch (error) {
+    } catch {
       toast.error(`Failed to copy ${label}`);
     }
   };
@@ -21,7 +21,10 @@ export const Web3Section = () => {
           Web3 & Community Development
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Building decentralized communities through token ecosystems, social engagement, and interactive experiences since 2015.
+          Piano performance is how this work gets tested in public. The tokens below
+          launched as community-developer experiments in blockchain social-network
+          technology: shared metadata, public and private chats, and live rooms around
+          performance and Friday movie nights. Building that stack since 2015.
         </p>
       </div>
 
@@ -41,7 +44,9 @@ export const Web3Section = () => {
                   </Badge>
                 </div>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Solana token on Raydium/PumpSwap • ~$4.8K Market Cap
+                  Launched alongside piano performance testing as a public proving ground
+                  for community-developer work on blockchain social networks. Solana token
+                  on Raydium/PumpSwap • ~$4.8K Market Cap
                 </p>
                 <div className="mb-3 p-2 rounded-lg bg-background/50 border border-green-500/20">
                   <p className="text-xs text-muted-foreground mb-1">Ethereum ERC-20 Contract:</p>
@@ -69,9 +74,9 @@ export const Web3Section = () => {
                 </div>
                 <div className="flex flex-wrap gap-2">
                   <Button asChild variant="outline" size="sm" className="gap-2">
-                    <a 
-                      href="https://dexscreener.com/solana/7atyeddgmpvmg3a17bdrdyf2tcsk8xzgvhqqot3crfej" 
-                      target="_blank" 
+                    <a
+                      href="https://dexscreener.com/solana/7atyeddgmpvmg3a17bdrdyf2tcsk8xzgvhqqot3crfej"
+                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       <ExternalLink className="w-3 h-3" />
@@ -79,9 +84,9 @@ export const Web3Section = () => {
                     </a>
                   </Button>
                   <Button asChild variant="outline" size="sm" className="gap-2">
-                    <a 
-                      href="https://pump.fun/coin/8Ettar7hNMaA84jMyBDCYHCwky2ZxS5NxtdeEXyGpump" 
-                      target="_blank" 
+                    <a
+                      href="https://pump.fun/coin/8Ettar7hNMaA84jMyBDCYHCwky2ZxS5NxtdeEXyGpump"
+                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       <ExternalLink className="w-3 h-3" />
@@ -109,7 +114,8 @@ export const Web3Section = () => {
                   </Badge>
                 </div>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Mirror coin of $DrQ with social interactive metadata
+                  Mirror of $DrQ with social interactive metadata. The public channel after
+                  piano-tested launches, so the social network is not only a private holders chat.
                 </p>
                 <div className="mb-3 p-2 rounded-lg bg-background/50 border border-purple-500/20">
                   <p className="text-xs text-muted-foreground mb-1">Solana Mint Address:</p>
@@ -132,9 +138,9 @@ export const Web3Section = () => {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Button asChild variant="outline" size="sm" className="gap-2">
-                    <a 
-                      href="https://pump.fun/coin/5S7iGKkzDEXu1WtomXkD1zs2M1s5UZPrX1GSeoY4pump" 
-                      target="_blank" 
+                    <a
+                      href="https://pump.fun/coin/5S7iGKkzDEXu1WtomXkD1zs2M1s5UZPrX1GSeoY4pump"
+                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       <ExternalLink className="w-3 h-3" />
@@ -142,9 +148,9 @@ export const Web3Section = () => {
                     </a>
                   </Button>
                   <Button asChild variant="outline" size="sm" className="gap-2">
-                    <a 
-                      href="https://t.me/qdrqchat" 
-                      target="_blank" 
+                    <a
+                      href="https://t.me/qdrqchat"
+                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       <MessageCircle className="w-3 h-3" />
@@ -172,7 +178,8 @@ export const Web3Section = () => {
                   </Badge>
                 </div>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Solana token for whale investors • Mutable metadata
+                  Solana token for whale investors with mutable metadata, so website,
+                  comments, and performance notes can ride with the social graph.
                 </p>
                 <div className="mb-3 p-2 rounded-lg bg-background/50 border border-blue-500/20">
                   <p className="text-xs text-muted-foreground mb-1">Solana Mint Address:</p>
@@ -195,9 +202,9 @@ export const Web3Section = () => {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Button asChild variant="outline" size="sm" className="gap-2">
-                    <a 
-                      href="https://solscan.io/token/G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG#holders" 
-                      target="_blank" 
+                    <a
+                      href="https://solscan.io/token/G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG#holders"
+                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       <ExternalLink className="w-3 h-3" />
@@ -210,6 +217,29 @@ export const Web3Section = () => {
           </CardContent>
         </Card>
       </div>
+
+      {/* Piano performance testing */}
+      <Card className="max-w-5xl mx-auto bg-gradient-to-r from-primary/5 via-accent/5 to-orange-500/5 border-primary/20">
+        <CardContent className="pt-6">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="p-4 rounded-2xl bg-primary/10 shrink-0">
+              <Music className="w-10 h-10 text-primary" />
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <h3 className="text-lg font-bold text-foreground mb-1">
+                Piano performance testing
+              </h3>
+              <p className="text-sm text-muted-foreground mb-1">
+                Public launch ritual for the community-developer social-network stack
+              </p>
+              <p className="text-xs text-muted-foreground/70">
+                Piano is how $DrQ, Q, and BIRB were tried in front of people: performance
+                as the test, tokens and chats as the blockchain social layer around it.
+              </p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
 
       {/* Community Features */}
       <Card className="max-w-5xl mx-auto bg-gradient-to-r from-orange-500/5 via-accent/5 to-primary/5 border-orange-500/20">
@@ -229,9 +259,9 @@ export const Web3Section = () => {
                 Using custom CSS developed in 2015 to create interactive viewing experiences
               </p>
               <Button asChild variant="outline" size="sm" className="gap-2">
-                <a 
-                  href="https://cytu.be/r/dienull" 
-                  target="_blank" 
+                <a
+                  href="https://cytu.be/r/dienull"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <ExternalLink className="w-4 h-4" />
