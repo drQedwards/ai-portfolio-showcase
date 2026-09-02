@@ -9,25 +9,25 @@ export const articles: Article[] = [
   {
     id: "1",
     title: "Persistent Memory Logic Loop (PMLL) Architecture: Memory Footprint Reduction in Large Language Models",
-    summary: "Introduces PMLL for optimizing memory in LLMs.",
+    summary: "Introduces PMLL for optimizing memory in LLMs. Implemented in open-source PMLL and the pmll-memory-mcp agent server (PPM companion).",
     link: "https://www.techrxiv.org/users/856117/articles/1322887-persistent-memory-logic-loop-pmll-architecture-memory-footprint-reduction-in-large-language-models",
   },
   {
     id: "2",
     title: "Enhanced Reconsideration System: A Mathematical Framework for Self-Correcting AI Memory Architecture",
-    summary: "Framework for self-correcting AI with temporal decay and consensus validation.",
+    summary: "Framework for self-correcting AI with temporal decay and consensus validation. The ERS layer in the PMLL/PPM runtime.",
     link: "https://www.techrxiv.org/users/856117/articles/1324171-enhanced-reconsideration-system-a-mathematical-framework-for-self-correcting-ai-memory-architecture-with-temporal-decay-and-consensus-validation",
   },
   {
     id: "3",
     title: "The Recursive Transformer Model: Architecture, Theory, and Implementation with Persistent Memory Logic Loops",
-    summary: "RTM architecture integrating PMLL for stateful transformers.",
+    summary: "RTM architecture integrating PMLL for stateful transformers. Software lives in the PMLL and PPM repos.",
     link: "https://www.techrxiv.org/users/856117/articles/1345789-the-recursive-transformer-model-architecture-theory-and-implementation-with-persistent-memory-logic-loops",
   },
   {
     id: "4",
     title: "The Topic Integrator: Dynamic Context Annotation via Cluster Graph Integration in Recursive Transformers",
-    summary: "Dynamic annotation using cluster graphs in RTM.",
+    summary: "Dynamic annotation using cluster graphs in RTM, the same graph idea used in the PMLL long-term memory layer.",
     link: "https://www.techrxiv.org/users/856117/articles/1366077-the-topic-integrator-dynamic-context-annotation-via-cluster-graph-integration-in-recursive-transformers",
   },
   {
