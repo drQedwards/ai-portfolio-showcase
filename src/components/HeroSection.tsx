@@ -50,8 +50,7 @@ export const HeroSection = () => {
           Exploring the Frontiers of Artificial Intelligence
         </p>
         <p className="text-muted-foreground/70 max-w-xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          AI Researcher at University of Colorado Boulder • Published on TechRxiv/IEEE • 
-          Specializing in Memory Architectures & Recursive Transformers
+          AI Researcher at University of Colorado Boulder • TechRxiv/IEEE PMLL & RTM papers now shipping as PPM + pmll-memory-mcp • Community developer of blockchain social-network tech, launched through piano performance testing
         </p>
 
         {/* CTA Button */}

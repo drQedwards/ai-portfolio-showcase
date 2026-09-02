@@ -3,6 +3,7 @@ import { NavBar } from "@/components/NavBar";
 import { HeroSection } from "@/components/HeroSection";
 import { SearchBar } from "@/components/SearchBar";
 import { ArticleCard } from "@/components/ArticleCard";
+import { ProjectsSection } from "@/components/ProjectsSection";
 import { SkillsSection } from "@/components/SkillsSection";
 import { Web3Section } from "@/components/Web3Section";
 import { AboutSection } from "@/components/AboutSection";
@@ -74,6 +75,11 @@ const Index = () => {
               </p>
             </div>
           )}
+        </section>
+
+        {/* PMLL & PPM Projects */}
+        <section id="projects" className="pt-16">
+          <ProjectsSection />
         </section>
 
         {/* Skills Section */}
